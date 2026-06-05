@@ -20,6 +20,7 @@ export const metadata: Metadata = {
         url: '/logo.jpg',
         type: 'image/jpg',
         sizes: '16x16',
+        
       },
       
     ]
