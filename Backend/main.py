@@ -10,7 +10,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000"  # Adjust this if your Next.js local port changes
+        "http://localhost:3000",
+        "https://ai-resume-analyzer-coral-ten.vercel.app"  # Adjust this if your Next.js local port changes
     ],
     allow_credentials=True,
     allow_methods=["*"],
